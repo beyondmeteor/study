@@ -1,0 +1,83 @@
+{
+  "Configuraton": {
+  
+    "globalSettings": {
+      "Nodes": {
+       "icaGlobalSettings": {
+         "Nodes": {},
+         "DisplayName": "Citrix Global Settings",
+         "Icon": 9,
+         "TagObjectName": "ICAGlobalSettings"
+       },
+       "rdpGlobalSettings": {
+         "Nodes": {},
+         "DisplayName": "RDP Global Settings",
+         "Icon": 9,
+         "TagObjectName": "RDPGlobalSettings"
+       },
+     },
+      "DisplayName": "VDI Global Settings",
+      "Icon": 9,
+      "TagObjectName": "BrokerWTOS"
+    },
+
+    "connections": {
+      "Nodes": {
+        "rdpConnectionSet": {
+          "Nodes": {},
+          "DisplayName": "RDP Connections",
+          "Icon": 14,
+          "TagObjectName": ""
+        },
+        "citrixConnectionSet": {
+          "Nodes": {},
+          "DisplayName": "Citrix Connections",
+          "Icon": 9,
+          "TagObjectName": ""
+        }
+      },
+      "DisplayName": "Connection Types",
+      "Icon": 4,
+      "TagObjectName": ""
+    },
+
+    "deviceConfiguration": {
+      "Nodes": {
+        "display": {
+          "Nodes": {},
+          "DisplayName": "Display",
+          "Icon": 7,
+          "TagObjectName": "DisplayWTOS"
+        },
+        "timeZone": {
+          "Nodes": {},
+          "DisplayName": "Timezone",
+          "Icon": 15,
+          "TagObjectName": "TimeZoneWTOS"
+        },
+        "security": {
+          "Nodes": {},
+          "DisplayName": "Security",
+          "Icon": 12,
+          "TagObjectName": "SecurityWTOS"
+        }
+      },
+      "DisplayName": "Device Configuration",
+      "Icon": 6,
+      "TagObjectName": ""
+    },
+    "osConfiguration": {
+      "Nodes": {
+        "firmwareUpgrade": {
+          "Nodes": {},
+          "DisplayName": "Firmware Upgrade",
+          "Icon": 1,
+          "TagObjectName": "FirmwareWTOS"
+        }
+      },
+      "DisplayName": "OS Configuration",
+      "Icon": 13,
+      "TagObjectName": ""
+    }
+  }
+}

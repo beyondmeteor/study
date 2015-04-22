@@ -1,0 +1,1256 @@
+{
+  "ValidMenuTable": {
+    "BrokerType": {
+      "Items": [
+        {
+          "Name": "None",
+          "Value": "None"
+        },
+        {
+          "Name": "Citrix",
+          "Value": "Citrix"
+        },
+        {
+          "Name": "Microsoft",
+          "Value": "Microsoft"
+        },
+        {
+          "Name": "VMware",
+          "Value": "VMware"
+        },
+        {
+          "Name": "Quest",
+          "Value": "Quest"
+        }
+      ]
+    },
+    "DefaultColorDepthForConnection": {
+      "Items": [
+        {
+          "Name": "256",
+          "Value": "256"
+        },
+        {
+          "Name": "16-bit",
+          "Value": "16-bit"
+        },
+        {
+          "Name": "32-bit",
+          "Value": "32-bit"
+        }
+      ]
+    },
+    "Alignment": {
+      "Items": [
+        {
+          "Name": "Bottom",
+          "Value": "Bottom"
+        },
+        {
+          "Name": "Center",
+          "Value": "Center"
+        },
+        {
+          "Name": "Top",
+          "Value": "Top"
+        }
+      ]
+    },
+    "RequireDomainLogin": {
+      "Items": [
+        {
+          "Name": "Yes",
+          "Value": "Yes"
+        },
+        {
+          "Name": "Using NTLM",
+          "Value": "Using NTLM"
+        },
+        {
+          "Name": "No",
+          "Value": "No"
+        }
+      ]
+    },
+    "UseRecommendedSessionsSettings": {
+      "Items": [
+        {
+          "Name": "Customize manually",
+          "Value": "Customize manually"
+        },
+        {
+          "Name": "Use recommended defaults for XenApp",
+          "Value": "Use recommended defaults for XenApp"
+        },
+        {
+          "Name": "Use recommended defaults for XenDesktop",
+          "Value": "Use recommended defaults for XenDesktop"
+        }
+      ]
+    },
+    "EnableUSBStorageDisks": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "Yes (read/write)",
+          "Value": "Yes (read/write)"
+        },
+        {
+          "Name": "Yes (read-only)",
+          "Value": "Yes (read-only)"
+        }
+      ]
+    },
+    "AutoReconnectAtLogon": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "Disconnected only",
+          "Value": "Disconnected only"
+        },
+        {
+          "Name": "Active and Disconnected",
+          "Value": "Active and Disconnected"
+        }
+      ]
+    },
+    "AccessGatewayAuthMethod": {
+      "Items": [
+        {
+          "Name": "RSA",
+          "Value": "RSA"
+        },
+        {
+          "Name": "LDAP",
+          "Value": "LDAP"
+        }
+      ]
+    },
+    "SystemMenu": {
+      "Items": [
+        {
+          "Name": "Remote",
+          "Value": "Remote"
+        },
+        {
+          "Name": "Local",
+          "Value": "Local"
+        }
+      ]
+    },
+    "EnableUSBRedirection": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "Redirect all USB devices",
+          "Value": "Redirect all USB devices"
+        },
+        {
+          "Name": "Exclude some devices",
+          "Value": "Exclude some devices"
+        }
+      ]
+    },
+    "EnableSeamlessMode": {
+      "Items": [
+        {
+          "Name": "Seamless when app is NOT configured for full screen",
+          "Value": "Yes - unless app is configured for full screen"
+        },
+        {
+          "Name": "Force all apps to seamless",
+          "Value": "Yes - force all apps to seamless"
+        },
+        {
+          "Name": "Do not enable seamless",
+          "Value": "No"
+        }
+      ]
+    },
+    "DisplayOnDesktop": {
+      "Items": [
+        {
+          "Name": "None",
+          "Value": "None"
+        },
+        {
+          "Name": "Apps Only",
+          "Value": "Apps Only"
+        },
+        {
+          "Name": "Apps & Desktop",
+          "Value": "Apps & Desktop"
+        },
+        {
+          "Name": "Desktops Only",
+          "Value": "Desktops Only"
+        }
+      ]
+    },
+    "SessionWindowBehaviorEx": {
+      "Items": [
+        {
+          "Name": "Default",
+          "Value": "Default"
+        },
+        {
+          "Name": "Seamless",
+          "Value": "Seamless"
+        },
+        {
+          "Name": "640x480",
+          "Value": "640x480"
+        },
+        {
+          "Name": "800x600",
+          "Value": "800x600"
+        },
+        {
+          "Name": "1024x768",
+          "Value": "1024x768"
+        },
+        {
+          "Name": "1280x1024",
+          "Value": "1280x1024"
+        },
+        {
+          "Name": "1600x1200",
+          "Value": "1600x1200"
+        },
+        {
+          "Name": "Full Screen",
+          "Value": "Full Screen"
+        }
+      ]
+    },
+    "AudioQuality": {
+      "Items": [
+        {
+          "Name": "Default",
+          "Value": "Default"
+        },
+        {
+          "Name": "Low",
+          "Value": "Low"
+        },
+        {
+          "Name": "Medium",
+          "Value": "Medium"
+        },
+        {
+          "Name": "High",
+          "Value": "High"
+        }
+      ]
+    },
+    "MapUsbDisks": {
+      "Items": [
+        {
+          "Name": "A",
+          "Value": "A"
+        },
+        {
+          "Name": "B",
+          "Value": "B"
+        },
+        {
+          "Name": "C",
+          "Value": "C"
+        },
+        {
+          "Name": "D",
+          "Value": "D"
+        },
+        {
+          "Name": "E",
+          "Value": "E"
+        },
+        {
+          "Name": "F",
+          "Value": "F"
+        },
+        {
+          "Name": "G",
+          "Value": "G"
+        },
+        {
+          "Name": "H",
+          "Value": "H"
+        },
+        {
+          "Name": "I",
+          "Value": "I"
+        },
+        {
+          "Name": "J",
+          "Value": "J"
+        },
+        {
+          "Name": "K",
+          "Value": "K"
+        },
+        {
+          "Name": "L",
+          "Value": "L"
+        },
+        {
+          "Name": "M",
+          "Value": "M"
+        },
+        {
+          "Name": "N",
+          "Value": "N"
+        },
+        {
+          "Name": "O",
+          "Value": "O"
+        },
+        {
+          "Name": "P",
+          "Value": "P"
+        },
+        {
+          "Name": "Q",
+          "Value": "Q"
+        },
+        {
+          "Name": "R",
+          "Value": "R"
+        },
+        {
+          "Name": "S",
+          "Value": "S"
+        },
+        {
+          "Name": "T",
+          "Value": "T"
+        },
+        {
+          "Name": "U",
+          "Value": "U"
+        },
+        {
+          "Name": "V",
+          "Value": "V"
+        },
+        {
+          "Name": "W",
+          "Value": "W"
+        },
+        {
+          "Name": "X",
+          "Value": "X"
+        },
+        {
+          "Name": "Y",
+          "Value": "Y"
+        },
+        {
+          "Name": "Z",
+          "Value": "Z"
+        }
+      ]
+    },
+    "AudioPlayback": {
+      "Items": [
+        {
+          "Name": "Play locally",
+          "Value": "Play locally"
+        },
+        {
+          "Name": "Play on remote computer",
+          "Value": "Play on remote computer"
+        },
+        {
+          "Name": "Do not play",
+          "Value": "Do not play"
+        }
+      ]
+    },
+    "9036": {
+      "Items": [
+        {
+          "Name": "Off",
+          "Value": "Off"
+        },
+        {
+          "Name": "On",
+          "Value": "On"
+        },
+        {
+          "Name": "Auto",
+          "Value": "Auto"
+        }
+      ]
+    },
+    "9037": {
+      "Items": [
+        {
+          "Name": "Off",
+          "Value": "Off"
+        },
+        {
+          "Name": "On",
+          "Value": "On"
+        },
+        {
+          "Name": "Auto",
+          "Value": "Auto"
+        }
+      ]
+    },
+    "9047": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "Yes(15sec)",
+          "Value": "Yes(15sec)"
+        },
+        {
+          "Name": "Yes(30sec)",
+          "Value": "Yes(30sec)"
+        },
+        {
+          "Name": "Yes(45sec)",
+          "Value": "Yes(45sec)"
+        },
+        {
+          "Name": "Yes(60sec)",
+          "Value": "Yes(60sec)"
+        }
+      ]
+    },
+    "ColorDepthCnx": {
+      "Items": [
+        {
+          "Name": "16-bit",
+          "Value": "16-bit"
+        },
+        {
+          "Name": "32-bit",
+          "Value": "32-bit"
+        }
+      ]
+    },
+    "SessionWindowBehaviorCnx": {
+      "Items": [
+        {
+          "Name": "Window Mode",
+          "Value": "Window Mode"
+        },
+        {
+          "Name": "Full Screen",
+          "Value": "Full Screen"
+        }
+      ]
+    },
+    "USBRedirectionTechnology": {
+      "Items": [
+        {
+          "Name": "TCX",
+          "Value": "TCX"
+        },
+        {
+          "Name": "HDX",
+          "Value": "HDX"
+        }
+      ]
+    },
+    "TimeZone": {
+      "Items": [
+        {
+          "Name": "GMT-12:00 - Eniwetok, Kwajalein",
+          "Value": "GMT-12:00 - Eniwetok, Kwajalein"
+        },
+        {
+          "Name": "GMT-11:00 - Midway Island, Samoa",
+          "Value": "GMT-11:00 - Midway Island, Samoa"
+        },
+        {
+          "Name": "GMT-10:00 - Hawaii, Honolulu",
+          "Value": "GMT-10:00 - Hawaii, Honolulu"
+        },
+        {
+          "Name": "GMT-09:00 - Alaska, anchorage",
+          "Value": "GMT-09:00 - Alaska, anchorage"
+        },
+        {
+          "Name": "GMT-08:00 - Pacific Time (US & Canada, Tijuana)",
+          "Value": "GMT-08:00 - Pacific Time (US & Canada, Tijuana)"
+        },
+        {
+          "Name": "GMT-07:00 - Arizona, Denver",
+          "Value": "GMT-07:00 - Arizona, Denver"
+        },
+        {
+          "Name": "GMT-07:00 - Mountain Time (US & Canada)",
+          "Value": "GMT-07:00 - Mountain Time (US & Canada)"
+        },
+        {
+          "Name": "GMT-06:00 - Central America",
+          "Value": "GMT-06:00 - Central America"
+        },
+        {
+          "Name": "GMT-06:00 - Central Time (US & Canada)",
+          "Value": "GMT-06:00 - Central Time (US & Canada)"
+        },
+        {
+          "Name": "GMT-06:00 - Mexico City, Dhicago",
+          "Value": "GMT-06:00 - Mexico City, Dhicago"
+        },
+        {
+          "Name": "GMT-06:00 - Saskatchewan",
+          "Value": "GMT-06:00 - Saskatchewan"
+        },
+        {
+          "Name": "GMT-05:00 - Bogota, Lima, Quito",
+          "Value": "GMT-05:00 - Bogota, Lima, Quito"
+        },
+        {
+          "Name": "GMT-05:00 - Eastern Time (US & Canada)",
+          "Value": "GMT-05:00 - Eastern Time (US & Canada)"
+        },
+        {
+          "Name": "GMT-05:00 - Indiana (East)",
+          "Value": "GMT-05:00 - Indiana (East)"
+        },
+        {
+          "Name": "GMT-04:30 - Caracas",
+          "Value": "GMT-04:30 - Caracas"
+        },
+        {
+          "Name": "GMT-04:00 - Atlantic Time (Canada)",
+          "Value": "GMT-04:00 - Atlantic Time (Canada)"
+        },
+        {
+          "Name": "GMT-04:00 - La Paz",
+          "Value": "GMT-04:00 - La Paz"
+        },
+        {
+          "Name": "GMT-04:00 - Santiago",
+          "Value": "GMT-04:00 - Santiago"
+        },
+        {
+          "Name": "GMT-03:30 - Newfoundland (Canada)",
+          "Value": "GMT-03:30 - Newfoundland (Canada)"
+        },
+        {
+          "Name": "GMT-03:00 - Brasilia, Brazil/East",
+          "Value": "GMT-03:00 - Brasilia, Brazil/East"
+        },
+        {
+          "Name": "GMT-03:00 - Buenos Aires, Georgetown",
+          "Value": "GMT-03:00 - Buenos Aires, Georgetown"
+        },
+        {
+          "Name": "GMT-03:00 - Greenland",
+          "Value": "GMT-03:00 - Greenland"
+        },
+        {
+          "Name": "GMT-02:00 - Mid-Atlantic",
+          "Value": "GMT-02:00 - Mid-Atlantic"
+        },
+        {
+          "Name": "GMT-01:00 - Atlantic/Azores",
+          "Value": "GMT-01:00 - Atlantic/Azores"
+        },
+        {
+          "Name": "GMT-01:00 - Atlantic/Cape Verde Islands",
+          "Value": "GMT-01:00 - Atlantic/Cape Verde Islands"
+        },
+        {
+          "Name": "GMT - Casablanca, Monrovia",
+          "Value": "GMT - Casablanca, Monrovia"
+        },
+        {
+          "Name": "GMT - Europe/London, Dublin, Edinburgh, Lisbon",
+          "Value": "GMT - Europe/London, Dublin, Edinburgh, Lisbon"
+        },
+        {
+          "Name": "GMT+01:00 - Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
+          "Value": "GMT+01:00 - Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+        },
+        {
+          "Name": "GMT+01:00 - Belgrade, Bratislava, Budapest, Ljubljana, Prague",
+          "Value": "GMT+01:00 - Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+        },
+        {
+          "Name": "GMT+01:00 - Brussels, Helsinki, Copenhagen, Madrid, Paris",
+          "Value": "GMT+01:00 - Brussels, Helsinki, Copenhagen, Madrid, Paris"
+        },
+        {
+          "Name": "GMT+01:00 - Sarajevo, Skopje, Vilnius, Warsaw, Zagreb",
+          "Value": "GMT+01:00 - Sarajevo, Skopje, Vilnius, Warsaw, Zagreb"
+        },
+        {
+          "Name": "GMT+01:00 - West Central Africa",
+          "Value": "GMT+01:00 - West Central Africa"
+        },
+        {
+          "Name": "GMT+02:00 - Athens, Istanbul, Minsk",
+          "Value": "GMT+02:00 - Athens, Istanbul, Minsk"
+        },
+        {
+          "Name": "GMT+02:00 - Bucharest",
+          "Value": "GMT+02:00 - Bucharest"
+        },
+        {
+          "Name": "GMT+02:00 - Cairo",
+          "Value": "GMT+02:00 - Cairo"
+        },
+        {
+          "Name": "GMT+02:00 - Harare, Pretoria",
+          "Value": "GMT+02:00 - Harare, Pretoria"
+        },
+        {
+          "Name": "GMT+02:00 - Helsinki, Riga, Tallinn",
+          "Value": "GMT+02:00 - Helsinki, Riga, Tallinn"
+        },
+        {
+          "Name": "GMT+02:00 - Jerusalem",
+          "Value": "GMT+02:00 - Jerusalem"
+        },
+        {
+          "Name": "GMT+03:00 - Baghdad",
+          "Value": "GMT+03:00 - Baghdad"
+        },
+        {
+          "Name": "GMT+03:00 - Kuwait, Riyadh",
+          "Value": "GMT+03:00 - Kuwait, Riyadh"
+        },
+        {
+          "Name": "GMT+04:00 - Moscow, St.Petersberg Volgograd",
+          "Value": "GMT+04:00 - Moscow, St.Petersberg Volgograd"
+        },
+        {
+          "Name": "GMT+03:00 - Nairobi",
+          "Value": "GMT+03:00 - Nairobi"
+        },
+        {
+          "Name": "GMT+03:30 - Tehran",
+          "Value": "GMT+03:30 - Tehran"
+        },
+        {
+          "Name": "GMT+04:00 - Abu Dhabi, Muscat",
+          "Value": "GMT+04:00 - Abu Dhabi, Muscat"
+        },
+        {
+          "Name": "GMT+04:00 - Baku, Tbilisi, Yerevan",
+          "Value": "GMT+04:00 - Baku, Tbilisi, Yerevan"
+        },
+        {
+          "Name": "GMT+04:30 - Kabul",
+          "Value": "GMT+04:30 - Kabul"
+        },
+        {
+          "Name": "GMT+05:00 - Ekaterinburg",
+          "Value": "GMT+05:00 - Ekaterinburg"
+        },
+        {
+          "Name": "GMT+05:00 - Islamabad, Karachi, Tashkent",
+          "Value": "GMT+05:00 - Islamabad, Karachi, Tashkent"
+        },
+        {
+          "Name": "GMT+05:30 - Chennai, Kolkata, Mumbau, New Delhi",
+          "Value": "GMT+05:30 - Chennai, Kolkata, Mumbau, New Delhi"
+        },
+        {
+          "Name": "GMT+05:30 - Sri Jayawardenepura",
+          "Value": "GMT+05:30 - Sri Jayawardenepura"
+        },
+        {
+          "Name": "GMT+05:45 - Kathmandu",
+          "Value": "GMT+05:45 - Kathmandu"
+        },
+        {
+          "Name": "GMT+06:00 - Almaty, Novosibirsk",
+          "Value": "GMT+06:00 - Almaty, Novosibirsk"
+        },
+        {
+          "Name": "GMT+06:00 - Astana, Dhaka",
+          "Value": "GMT+06:00 - Astana, Dhaka"
+        },
+        {
+          "Name": "GMT+06:30 - Rangoon",
+          "Value": "GMT+06:30 - Rangoon"
+        },
+        {
+          "Name": "GMT+07:00 - Bangkok, Hanoi, Jakarta",
+          "Value": "GMT+07:00 - Bangkok, Hanoi, Jakarta"
+        },
+        {
+          "Name": "GMT+07:00 - Krasnoyarsk",
+          "Value": "GMT+07:00 - Krasnoyarsk"
+        },
+        {
+          "Name": "GMT+08:00 - Beijing, Chongqing, HongKong, Urumqi",
+          "Value": "GMT+08:00 - Beijing, Chongqing, HongKong, Urumqi"
+        },
+        {
+          "Name": "GMT+08:00 - Irkutsk, Ulaan Bataar",
+          "Value": "GMT+08:00 - Irkutsk, Ulaan Bataar"
+        },
+        {
+          "Name": "GMT+08:00 - Kuala Lumpur, Singapore",
+          "Value": "GMT+08:00 - Kuala Lumpur, Singapore"
+        },
+        {
+          "Name": "GMT+08:00 - Perth",
+          "Value": "GMT+08:00 - Perth"
+        },
+        {
+          "Name": "GMT+08:00 - Taipei",
+          "Value": "GMT+08:00 - Taipei"
+        },
+        {
+          "Name": "GMT+09:00 - Osaka, Sapporo, Tokyo",
+          "Value": "GMT+09:00 - Osaka, Sapporo, Tokyo"
+        },
+        {
+          "Name": "GMT+09:00 - Seoul",
+          "Value": "GMT+09:00 - Seoul"
+        },
+        {
+          "Name": "GMT+09:00 - Yakutsk",
+          "Value": "GMT+09:00 - Yakutsk"
+        },
+        {
+          "Name": "GMT+09:30 - Australia/Adelaide",
+          "Value": "GMT+09:30 - Australia/Adelaide"
+        },
+        {
+          "Name": "GMT+09:30 - Darwin",
+          "Value": "GMT+09:30 - Darwin"
+        },
+        {
+          "Name": "GMT+10:00 - Brisbane",
+          "Value": "GMT+10:00 - Brisbane"
+        },
+        {
+          "Name": "GMT+10:00 - Canberra, Melbourne, Sydney",
+          "Value": "GMT+10:00 - Canberra, Melbourne, Sydney"
+        },
+        {
+          "Name": "GMT+10:00 - Guam, Port Moresby",
+          "Value": "GMT+10:00 - Guam, Port Moresby"
+        },
+        {
+          "Name": "GMT+10:00 - Hobart",
+          "Value": "GMT+10:00 - Hobart"
+        },
+        {
+          "Name": "GMT+10:00 - Vladivostok",
+          "Value": "GMT+10:00 - Vladivostok"
+        },
+        {
+          "Name": "GMT+11:00 - Magadan, Soloman Islands, New Caledonia",
+          "Value": "GMT+11:00 - Magadan, Soloman Islands, New Caledonia"
+        },
+        {
+          "Name": "GMT+12:00 - Auckland, Wellington",
+          "Value": "GMT+12:00 - Auckland, Wellington"
+        },
+        {
+          "Name": "GMT+12:00 - Fiji, Kamchatka, Marshall Islands",
+          "Value": "GMT+12:00 - Fiji, Kamchatka, Marshall Islands"
+        },
+        {
+          "Name": "GMT+13:00 - Nuku'alofa",
+          "Value": "GMT+13:00 - Nuku'alofa"
+        }
+      ]
+    },
+    "MonitorResolution": {
+      "Items": [
+        {
+          "Name": "DDC",
+          "Value": "DDC"
+        },
+        {
+          "Name": "640x480",
+          "Value": "640x480"
+        },
+        {
+          "Name": "800x600",
+          "Value": "800x600"
+        },
+        {
+          "Name": "1024x768",
+          "Value": "1024x768"
+        },
+        {
+          "Name": "1152x864",
+          "Value": "1152x864"
+        },
+        {
+          "Name": "1280x720",
+          "Value": "1280x720"
+        },
+        {
+          "Name": "1280x768",
+          "Value": "1280x768"
+        },
+        {
+          "Name": "1280x960",
+          "Value": "1280x960"
+        },
+        {
+          "Name": "1280x1024",
+          "Value": "1280x1024"
+        },
+        {
+          "Name": "1360x768",
+          "Value": "1360x768"
+        },
+        {
+          "Name": "1366x768",
+          "Value": "1366x768"
+        },
+        {
+          "Name": "1400x900",
+          "Value": "1400x900"
+        },
+        {
+          "Name": "1400x1050",
+          "Value": "1400x1050"
+        },
+        {
+          "Name": "1440x900",
+          "Value": "1440x900"
+        },
+        {
+          "Name": "1400x1050",
+          "Value": "1400x1050"
+        },
+        {
+          "Name": "1600x900",
+          "Value": "1600x900"
+        },
+        {
+          "Name": "1600x1200",
+          "Value": "1600x1200"
+        },
+        {
+          "Name": "1680x1050",
+          "Value": "1680x1050"
+        },
+        {
+          "Name": "1920x1080",
+          "Value": "1920x1080"
+        },
+        {
+          "Name": "1900x1200",
+          "Value": "1900x1200"
+        },
+        {
+          "Name": "1920x1440",
+          "Value": "1920x1440"
+        },
+        {
+          "Name": "2560x1440",
+          "Value": "2560x1440"
+        },
+        {
+          "Name": "2560x1600",
+          "Value": "2560x1600"
+        }
+      ]
+    },
+    "MonitorRotation": {
+      "Items": [
+        {
+          "Name": "Horizontal",
+          "Value": "Horizontal"
+        },
+        {
+          "Name": "Vertical",
+          "Value": "Vertical"
+        }
+      ]
+    },
+    "DesktopColorDepth": {
+      "Items": [
+        {
+          "Name": "16-bit",
+          "Value": "16-bit"
+        },
+        {
+          "Name": "32-bit",
+          "Value": "32-bit"
+        }
+      ]
+    },
+    "DisplayMode": {
+      "Items": [
+        {
+          "Name": "Mirror Mode",
+          "Value": "Mirror Mode"
+        },
+        {
+          "Name": "Span Mode",
+          "Value": "Span Mode"
+        }
+      ]
+    },
+    "MainScreen": {
+      "Items": [
+        {
+          "Name": "Screen 1",
+          "Value": "Screen 1"
+        },
+        {
+          "Name": "Screen 2",
+          "Value": "Screen 2"
+        }
+      ]
+    },
+    "6824": {
+      "Items": [
+        {
+          "Name": "Bottom",
+          "Value": "Bottom"
+        },
+        {
+          "Name": "Center",
+          "Value": "Center"
+        },
+        {
+          "Name": "Top",
+          "Value": "Top"
+        }
+      ]
+    },
+    "ActionAfterAllSessionExit": {
+      "Items": [
+        {
+          "Name": "None",
+          "Value": "None"
+        },
+        {
+          "Name": "Sign-off automatically",
+          "Value": "Sign-off automatically"
+        },
+        {
+          "Name": "Shutdown the system automatically",
+          "Value": "Shutdown the system automatically"
+        },
+        {
+          "Name": "Restart the system automatically",
+          "Value": "Restart the system automatically"
+        }
+      ]
+    },
+    "ClassicDesktopvsZeroLaunchpad": {
+      "Items": [
+        {
+          "Name": "Classic Desktop",
+          "Value": "Classic Desktop"
+        },
+        {
+          "Name": "Zero Launchpad",
+          "Value": "Zero Launchpad"
+        }
+      ]
+    },
+    "EnableDaylightSavings": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "Configure manually",
+          "Value": "Configure manually"
+        }
+      ]
+    },
+    "EnableZeroToolbar": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "On Mouseover after specified seconds",
+          "Value": "On Mouseover after specified seconds"
+        },
+        {
+          "Name": "Only after clicking",
+          "Value": "Only after clicking"
+        }
+      ]
+    },
+    "PrivilegeLevel": {
+      "Items": [
+        {
+          "Name": "None",
+          "Value": "None"
+        },
+        {
+          "Name": "Low",
+          "Value": "Low"
+        },
+        {
+          "Name": "High",
+          "Value": "High"
+        }
+      ]
+    },
+    "WallpaperLayout": {
+      "Items": [
+        {
+          "Name": "Center",
+          "Value": "Center"
+        },
+        {
+          "Name": "Stretch",
+          "Value": "Stretch"
+        },
+        {
+          "Name": "Tile",
+          "Value": "Tile"
+        }
+      ]
+    },
+    "BehaviorAfterSmartcardIsRemoved": {
+      "Items": [
+        {
+          "Name": "Device keeps working. Lock terminal is disabled",
+          "Value": "Device keeps working. Lock terminal is disabled"
+        },
+        {
+          "Name": "Logoff user",
+          "Value": "Logoff user"
+        },
+        {
+          "Name": "Lock devide and unlock only with same certificate and smartcard",
+          "Value": "Lock devide and unlock only with same certificate and smartcard"
+        }
+      ]
+    },
+    "RememberPreviousUsername": {
+      "Items": [
+        {
+          "Name": "No",
+          "Value": "No"
+        },
+        {
+          "Name": "Use both username and domain",
+          "Value": "Use both username and domain"
+        },
+        {
+          "Name": "Username only",
+          "Value": "Username only"
+        },
+        {
+          "Name": "Domain only",
+          "Value": "Domain only"
+        }
+      ]
+    },
+    "Protocol": {
+      "Items": [
+        {
+          "Name": "RDP",
+          "Value": "RDP"
+        },
+        {
+          "Name": "PCoIP",
+          "Value": "PCoIP"
+        }
+      ]
+    },
+    "SecurityMode": {
+      "Items": [
+        {
+          "Name": "Warn on View default",
+          "Value": "Warn on View default"
+        },
+        {
+          "Name": "Full Security",
+          "Value": "Full Security"
+        },
+        {
+          "Name": "No security",
+          "Value": "No security"
+        }
+      ]
+    },
+    "NumberSecondsBeforeToolbarActivated": {
+      "Items": [
+        {
+          "Name": "No delay",
+          "Value": "No delay"
+        },
+        {
+          "Name": ".5 seconds",
+          "Value": ".5 seconds"
+        },
+        {
+          "Name": "1 second",
+          "Value": "1 second"
+        },
+        {
+          "Name": "1.5 seconds",
+          "Value": "1.5 seconds"
+        },
+        {
+          "Name": "2 seconds",
+          "Value": "2 seconds"
+        }
+      ]
+    },
+    "AutoHideToolbar": {
+      "Items": [
+        {
+          "Name": ".5",
+          "Value": ".5"
+        },
+        {
+          "Name": "1.0",
+          "Value": "1.0"
+        },
+        {
+          "Name": "1.5",
+          "Value": "1.5"
+        },
+        {
+          "Name": "2.0",
+          "Value": "2.0"
+        },
+        {
+          "Name": "2.5",
+          "Value": "2.5"
+        },
+        {
+          "Name": "3.0",
+          "Value": "3.0"
+        },
+        {
+          "Name": "3.5",
+          "Value": "3.5"
+        },
+        {
+          "Name": "4.0",
+          "Value": "4.0"
+        },
+        {
+          "Name": "4.5",
+          "Value": "4.5"
+        },
+        {
+          "Name": "5.0",
+          "Value": "5.0"
+        },
+        {
+          "Name": "5.5",
+          "Value": "5.5"
+        },
+        {
+          "Name": "6.0",
+          "Value": "6.0"
+        },
+        {
+          "Name": "6.5",
+          "Value": "6.5"
+        },
+        {
+          "Name": "7.0",
+          "Value": "7.0"
+        },
+        {
+          "Name": "7.5",
+          "Value": "7.5"
+        },
+        {
+          "Name": "8.0",
+          "Value": "8.0"
+        },
+        {
+          "Name": "8.5",
+          "Value": "8.5"
+        },
+        {
+          "Name": "9.0",
+          "Value": "9.0"
+        },
+        {
+          "Name": "9.5",
+          "Value": "9.5"
+        },
+        {
+          "Name": "10.0",
+          "Value": "10.0"
+        },
+        {
+          "Name": "Only after clicking",
+          "Value": "Only after clicking"
+        }
+      ]
+    },
+    "FirmwareUpdateLogic": {
+      "Items": [
+        {
+          "Name": "Do not upgrade",
+          "Value": "Do not upgrade"
+        },
+        {
+          "Name": "New firmware only",
+          "Value": "New firmware only"
+        },
+        {
+          "Name": "Any different firmware",
+          "Value": "Any different firmware"
+        }
+      ]
+    }
+  },
+  "ValidRangeTable": {
+    "9079": {
+      "RangeMin": 128.0,
+      "RangeMax": 1024.0,
+      "RangeInc": 1.0
+    },
+    "9060": {
+      "RangeMin": 1.0,
+      "RangeMax": 99.0,
+      "RangeInc": 1.0
+    },
+    "9078": {
+      "RangeMin": 1.0,
+      "RangeMax": 1000.0,
+      "RangeInc": 1.0
+    },
+    "6902": {
+      "RangeMin": 0.0,
+      "RangeMax": 60.0,
+      "RangeInc": 1.0
+    },
+    "6913": {
+      "RangeMin": 10.0,
+      "RangeMax": 600.0,
+      "RangeInc": 1.0
+    }
+  },
+  "ValidRegularExpression": {
+    "9078": "^([0-9]|[1-9][0-9]|[1-9][0-9][0-9]|1000)$",
+    "6892": "^([0-9]*)$",
+    "9020": "^([0-9]|[1-5][0-9]|60)$",
+    "6902": "^([0-9]|[1-5][0-9]|60)$",
+    "6843": "^(?=.{1,120}$)",
+    "6844": "^(?=.{1,60}$)",
+    "6911": "^(?=.{1,60}$)"
+  }
+}

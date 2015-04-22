@@ -1,0 +1,873 @@
+{
+  "info": {
+    "ostype": "WTOS",
+    "origin": "WCM",
+    "number": "1.4.0.11",
+    "crdate": "4/13/2015 10:33:52 AM",
+    "md5jsn": "275a1cfc33e9c6a9f18f46b1cdf6d975"
+  },
+  "configurations": {
+    "configSettings": [
+      {
+        "configName": "citrixBroker",
+        "configItems": [
+          {
+            "itemKey": "BrokerServer",
+            "itemValue": "csg-cn.wyse.com",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "CitrixStoreFront",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "CitrixDisplayOnDesktop",
+            "itemValue": "Apps & Desktop",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "UseRecommendedSessionsSettings",
+            "itemValue": "Customize manually",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutomaticallyConnectToSessions",
+            "itemValue": "",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "microsoftBroker",
+        "configItems": [
+          {
+            "itemKey": "BrokerServer",
+            "itemValue": "csg-cn.wyse.com",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutomaticallyConnectToSessions",
+            "itemValue": "",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "vmwareBroker",
+        "configItems": [
+          {
+            "itemKey": "BrokerServer",
+            "itemValue": "csg-cn.wyse.com",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "UseRecommendedSessionsSettings",
+            "itemValue": "Customize manually",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutomaticallyConnectToSessions",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SecurityMode",
+            "itemValue": "Warn on View default",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "Protocol",
+            "itemValue": "RDP",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "questBroker",
+        "configItems": [
+          {
+            "itemKey": "BrokerServer",
+            "itemValue": "csg-cn.wyse.com",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutomaticallyConnectToSessions",
+            "itemValue": "",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "sessionGlobalSettings",
+        "configItems": [
+          {
+            "itemKey": "AutoConnectLocalPrinters",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSerials",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSmartCards",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSound",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableUSBStorageDisks",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableUSBRedirection",
+            "itemValue": "Exclude some devices",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ExcludeDiskDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExcludeAudioDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExcludePrinterDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExcludeVideoDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ReconnectAfterDisconnect",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "MultiMonitor",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          }
+        ]
+      },
+      {
+        "configName": "citrixGlobalSettings",
+        "configItems": [
+          {
+            "itemKey": "AudioQuality",
+            "itemValue": "Default",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableSeamlessMode",
+            "itemValue": "Yes - unless app is configured for full screen",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SessionWindowBehaviorCnx",
+            "itemValue": "Full Screen",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SessionReliability",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AlternateAddressFirewall",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "UseHttpForBrowsing",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "USBRedirectionTechnology",
+            "itemValue": "HDX",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "rdpGlobalSettings",
+        "configItems": [
+          {
+            "itemKey": "EnableNla",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableRecording",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "MultimediaRedirection",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "BitmapCodecRemoveFX",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableTSMM",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ForceSpan",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "RemoteFXGraphicChannel",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "UDPTrafficChannel",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "VideoOptimizedVOR",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "USBRedirectionTechnology",
+            "itemValue": "HDX",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ColorDepthCnx",
+            "itemValue": "32-bit",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "MaximumBitmapCache",
+            "itemValue": "128",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "displaySettings",
+        "configItems": [
+          {
+            "itemKey": "MonitorResolution",
+            "itemValue": "DDC",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "MonitorRotation",
+            "itemValue": "Horizontal",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DesktopColorDepth",
+            "itemValue": "32-bit",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableDualMonitor",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "DisplayMode",
+            "itemValue": "Mirror Mode",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "MainScreen",
+            "itemValue": "Screen 1",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "Alignment",
+            "itemValue": "Bottom",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "desktopExperienceSettings",
+        "configItems": [
+          {
+            "itemKey": "DesktopWallpaper",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "WallpaperFile",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "WallpaperLayout",
+            "itemValue": "Center",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ShowCompanyLogo",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "LogoFile",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EULAAtLogin",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EULAFile",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ClassicDesktopvsZeroLaunchpad",
+            "itemValue": "Zero Launchpad",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableZeroToolbar",
+            "itemValue": "On Mouseover after specified seconds",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "NumberSecondsBeforeToolbarActivated",
+            "itemValue": "No Delay",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DisableHotkeyToShowToolbar",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AlwaysDisableToolbar",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "DisableHomeIcon",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "PreventToolbarFromClosing",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoHideToolbar",
+            "itemValue": ".5",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ActionAfterAllSessionExit",
+            "itemValue": "None",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "timezoneSettings",
+        "configItems": [
+          {
+            "itemKey": "ManuallySetTimeZone",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableDaylightSavings",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "TimeServers",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "TimeZone",
+            "itemValue": "GMT-12:00 - Eniwetok, Kwajalein",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "securitySettings",
+        "configItems": [
+          {
+            "itemKey": "DefaultSignOnUserName",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DefaultSignOnPassword",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DefaultSignOnDomain",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "RememberPreviousUsername",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ShowNameOfLastUser",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "PrivilegeLevel",
+            "itemValue": "High",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AllowLockdown",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "RequireDomainLogin",
+            "itemValue": "Yes",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DisableGuestUsers",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "RequireReenteringPassword",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExpirationTime",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "RequireSmartcardForLogin",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "BehaviorAfterSmartcardIsRemoved",
+            "itemValue": "Logoff user",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableGkeyReset",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableTrace",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoInstallCertificates",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "Certificates",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EncryptLocalFlash",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "FastDisconnectKey",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "DisableThinPrintServices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "DisableWDMService",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableVNC",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "VNCPassword",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "PromptUserOnStart",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "CounterForAccept",
+            "itemValue": 10,
+            "valueType": "INT"
+          },
+          {
+            "itemKey": "PromptUserOnEnd",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ViewOnly",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "Force8Bit",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "DisableVNCShadowing",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          }
+        ]
+      },
+      {
+        "configName": "firmwareSettings",
+        "configItems": [
+          {
+            "itemKey": "FileServerUser",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "FileServerPassword",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "FileServer",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "FileServerRoot",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DisableLiveUpgrade",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "FirmwareUpdateLogic",
+            "itemValue": "Any different firmware",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SkipLocalFirmwareCheck",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "LocalPrompt",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          }
+        ]
+      },
+      {
+        "configName": "citrixRemoteConnections",
+        "configItems": [
+          {
+            "itemKey": "ConnectionName",
+            "itemValue": "Citrix 1",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "HostNameOrIP",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "UserNameCnx",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "PassworcCnx",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DomainNameCnx",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutoStart",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ReconnectAfterDisconnect",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalPrinters",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSerials",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSmartCards",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSound",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableUSBStorageDisks",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "MapUsbDisks",
+            "itemValue": "No Mapping",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AudioQuality",
+            "itemValue": "Default",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "FontSmoothing",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoReconnectAtLogon",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutoReconnectFromButton",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AlternateAddressFirewall",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "SessionReliability",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "UseHttpForBrowsing",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          }
+        ]
+      },
+      {
+        "configName": "rdpRemoteConnection",
+        "configItems": [
+          {
+            "itemKey": "ConnectionName",
+            "itemValue": "RDP 1",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "HostNameOrIP",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "UserNameCnx",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "PassworcCnx",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DomainNameCnx",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutoStart",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ReconnectAfterDisconnect",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AudioPlayback",
+            "itemValue": "Play locally",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DefaultColorDepthForConnection",
+            "itemValue": "32-bit",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SessionWindowBehaviorEx",
+            "itemValue": "Full Screen",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "FontSmoothing",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "FourPixelAlignedSessionWidth",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableRecording",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableDesktopWallpaper",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableWindowDragging",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableAnimation",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableTheme",
+            "itemValue": "Yes",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "MouseQueueTimer",
+            "itemValue": "20",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutoConnectLocalPrinters",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSerials",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSmartCards",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "MapUsbDisks",
+            "itemValue": "No Mapping",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableUSBStorageDisks",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ConfigureTSGateway",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "HostAddressTsGateWay",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "UsernameTsGateWay",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "PasswordTsGateWay",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "DomainTsGateWay",
+            "itemValue": "",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "AutoDetectTsGateWay",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          }
+        ]
+      }
+    ]
+  }
+}

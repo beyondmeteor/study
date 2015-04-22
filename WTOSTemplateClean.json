@@ -1,0 +1,121 @@
+{
+  "Configuraton": {
+  
+    "brokerSettings": {
+      "Nodes": {
+       "citrixBroker": {
+         "Nodes": {},
+         "DisplayName": "Citrix",
+         "Icon": 9,
+         "TagObjectName": "BrokerCitrixWTOS"
+       },
+       "microsoftBroker": {
+         "Nodes": {},
+         "DisplayName": "Microsoft",
+         "Icon": 14,
+         "TagObjectName": "BrokerMicrosoftWTOS"
+       },
+       "vmwareBroker": {
+         "Nodes": {},
+         "DisplayName": "VMWare",
+         "Icon": 17,
+         "TagObjectName": "BrokerVmwareWTOS"
+       },
+       "questBroker": {
+         "Nodes": {},
+         "DisplayName": "vWorkspace",
+         "Icon": 33,
+         "TagObjectName": "BrokerQuestWTOS"
+       },       
+     },
+      "DisplayName": "Broker Server Details",
+      "Icon": 9,
+      "TagObjectName": ""
+    },
+
+    "globalSettings": {
+      "Nodes": {
+       "sessionGlobalSettings": {
+         "Nodes": {},
+         "DisplayName": "Session",
+         "Icon": 9,
+         "TagObjectName": "SessionGlobalSettingsWTOS"
+       },
+       "icaGlobalSettings": {
+         "Nodes": {},
+         "DisplayName": "Citrix",
+         "Icon": 9,
+         "TagObjectName": "ICAGlobalSettingsWTOS"
+       },
+       "rdpGlobalSettings": {
+         "Nodes": {},
+         "DisplayName": "RDP",
+         "Icon": 14,
+         "TagObjectName": "RDPGlobalSettingsWTOS"
+       },
+     },
+      "DisplayName": "VDI Global Settings",
+      "Icon": 9,
+      "TagObjectName": ""
+    },
+
+    "connections": {
+      "Nodes": {
+        "citrixConnectionSet": {
+          "Nodes": {},
+          "DisplayName": "Citrix Connections",
+          "Icon": 9,
+          "TagObjectName": ""
+        },
+        "rdpConnectionSet": {
+          "Nodes": {},
+          "DisplayName": "RDP Connections",
+          "Icon": 14,
+          "TagObjectName": ""
+        },
+      },
+      "DisplayName": "Connections",
+      "Icon": 4,
+      "TagObjectName": ""
+    },
+
+    "deviceConfiguration": {
+      "Nodes": {
+        "display": {
+          "Nodes": {},
+          "DisplayName": "Display",
+          "Icon": 7,
+          "TagObjectName": "DisplayWTOS"
+        },
+        "timeZone": {
+          "Nodes": {},
+          "DisplayName": "Timezone",
+          "Icon": 15,
+          "TagObjectName": "TimeZoneWTOS"
+        },
+        "security": {
+          "Nodes": {},
+          "DisplayName": "Security",
+          "Icon": 12,
+          "TagObjectName": "SecurityWTOS"
+        }
+      },
+      "DisplayName": "Device Configuration",
+      "Icon": 6,
+      "TagObjectName": ""
+    },
+    "osConfiguration": {
+      "Nodes": {
+        "firmwareUpgrade": {
+          "Nodes": {},
+          "DisplayName": "Firmware Upgrade",
+          "Icon": 32,
+          "TagObjectName": "FirmwareWTOS"
+        }
+      },
+      "DisplayName": "OS Configuration",
+      "Icon": 13,
+      "TagObjectName": ""
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "info": {
+    "ostype": "WTOS",
+    "origin": "WCM",
+    "number": "1.4.0.11",
+    "crdate": "4/2/2015 2:08:51 PM",
+    "md5jsn": "34a3ffa5900a9c2e51c88cee58bfc3df"
+  },
+  "configurations": {
+    "configSettings": [
+      {
+        "configName": "sessionGlobalSettings",
+        "configItems": [
+          {
+            "itemKey": "AutoConnectLocalPrinters",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSerials",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSmartCards",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AutoConnectLocalSound",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableUSBStorageDisks",
+            "itemValue": "No",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableUSBRedirection",
+            "itemValue": "Exclude some devices",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ExcludeDiskDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExcludeAudioDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExcludePrinterDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ExcludeVideoDevices",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ReconnectAfterDisconnect",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "MultiMonitor",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          }
+        ]
+      },
+      {
+        "configName": "citrixGlobalSettings",
+        "configItems": [
+          {
+            "itemKey": "AudioQuality",
+            "itemValue": "Default",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "EnableSeamlessMode",
+            "itemValue": "Yes - unless app is configured for full screen",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SessionWindowBehaviorCnx",
+            "itemValue": "Full Screen",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "SessionReliability",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "AlternateAddressFirewall",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "UseHttpForBrowsing",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "USBRedirectionTechnology",
+            "itemValue": "HDX",
+            "valueType": "STRING"
+          }
+        ]
+      },
+      {
+        "configName": "rdpGlobalSettings",
+        "configItems": [
+          {
+            "itemKey": "EnableNla",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableRecording",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "MultimediaRedirection",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "BitmapCodecRemoveFX",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "EnableTSMM",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "ForceSpan",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "RemoteFXGraphicChannel",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "UDPTrafficChannel",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "VideoOptimizedVOR",
+            "itemValue": "No",
+            "valueType": "BOOL"
+          },
+          {
+            "itemKey": "USBRedirectionTechnology",
+            "itemValue": "HDX",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "ColorDepthCnx",
+            "itemValue": "32-bit",
+            "valueType": "STRING"
+          },
+          {
+            "itemKey": "MaximumBitmapCache",
+            "itemValue": "128",
+            "valueType": "STRING"
+          }
+        ]
+      }
+    ]
+  }
+}

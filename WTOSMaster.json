@@ -1,0 +1,1098 @@
+{
+  "Properties": [
+    {
+      "IdCcm": "6821",
+      "NameCcm": "Monitor Resolution",
+      "NameWcm": "MonitorResolution",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6822",
+      "NameCcm": "Monitor Rotation",
+      "NameWcm": "MonitorRotation",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6823",
+      "NameCcm": "Desktop Color Depth",
+      "NameWcm": "DesktopColorDepth",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6825",
+      "NameCcm": "Enable Dual Monitor",
+      "NameWcm": "EnableDualMonitor",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6826",
+      "NameCcm": "Display Mode",
+      "NameWcm": "DisplayMode",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6827",
+      "NameCcm": "Main Screen",
+      "NameWcm": "MainScreen",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6828",
+      "NameCcm": "Alignment",
+      "NameWcm": "Alignment",
+      "ParentCcm": "370",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6900",
+      "NameCcm": "Classic Desktop vs Zero Launchpad",
+      "NameWcm": "ClassicDesktopvsZeroLaunchpad",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6901",
+      "NameCcm": "Action after all session exit",
+      "NameWcm": "ActionAfterAllSessionExit",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },        
+    {
+      "IdCcm": "6903",
+      "NameCcm": "Enable Zero toolbar activation in left margin",
+      "NameWcm": "EnableZeroToolbar",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6904",
+      "NameCcm": "Number of seconds before toolbar is activated",
+      "NameWcm": "NumberSecondsBeforeToolbarActivated",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6905",
+      "NameCcm": "Disable Hotkey (CTRL-ALT-UP) to show toolbar",
+      "NameWcm": "DisableHotkeyToShowToolbar",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6906",
+      "NameCcm": "Always disable toolbar when only one session available",
+      "NameWcm": "AlwaysDisableToolbar",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6907",
+      "NameCcm": "Disable Home Icon",
+      "NameWcm": "DisableHomeIcon",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6940",
+      "NameCcm": "Prevent toolbar from closing unless mouse focus moves away",
+      "NameWcm": "PreventToolbarFromClosing",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6941",
+      "NameCcm": "Auto-hide toolbar after specified seconds",
+      "NameWcm": "AutoHideToolbar",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7032",
+      "NameCcm": "Wallpaper Layout",
+      "NameWcm": "WallpaperLayout",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7031",
+      "NameCcm": "Wallpaper File",
+      "NameWcm": "WallpaperFile",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7030",
+      "NameCcm": "Desktop Wallpaper",
+      "NameWcm": "DesktopWallpaper",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7033",
+      "NameCcm": "Company Logo",
+      "NameWcm": "ShowCompanyLogo",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7034",
+      "NameCcm": "Logo file",
+      "NameWcm": "LogoFile",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7035",
+      "NameCcm": "EULA at login",
+      "NameWcm": "EULAAtLogin",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "7036",
+      "NameCcm": "EULA file",
+      "NameWcm": "EULAFile",
+      "ParentCcm": "380",
+      "ParentWcm": "DisplayWTOS"
+    },
+    {
+      "IdCcm": "6838",
+      "NameCcm": "Manually Set TimeZone",
+      "NameWcm": "ManuallySetTimeZone",
+      "ParentCcm": "360",
+      "ParentWcm": "TimeZoneWTOS"
+    },
+    {
+      "IdCcm": "6839",
+      "NameCcm": "Enable Daylight Savings",
+      "NameWcm": "EnableDaylightSavings",
+      "ParentCcm": "360",
+      "ParentWcm": "TimeZoneWTOS"
+    },
+    {
+      "IdCcm": "6848",
+      "NameCcm": "Time Servers",
+      "NameWcm": "TimeServers",
+      "ParentCcm": "360",
+      "ParentWcm": "TimeZoneWTOS"
+    },
+    {
+      "IdCcm": "7027",
+      "NameCcm": "TimeZone",
+      "NameWcm": "TimeZone",
+      "ParentCcm": "360",
+      "ParentWcm": "TimeZoneWTOS"
+    },
+    {
+      "IdCcm": "7000",
+      "NameCcm": "Line 1",
+      "NameWcm": "Line1",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7001",
+      "NameCcm": "Line 2",
+      "NameWcm": "Line2",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7002",
+      "NameCcm": "Line 3",
+      "NameWcm": "Line3",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7003",
+      "NameCcm": "Line 4",
+      "NameWcm": "Line4",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7004",
+      "NameCcm": "Line 5",
+      "NameWcm": "Line5",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7005",
+      "NameCcm": "Line 6",
+      "NameWcm": "Line6",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7006",
+      "NameCcm": "Line 7",
+      "NameWcm": "Line7",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7007",
+      "NameCcm": "Line 8",
+      "NameWcm": "Line8",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7008",
+      "NameCcm": "Line 9",
+      "NameWcm": "Line9",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7009",
+      "NameCcm": "Line 10",
+      "NameWcm": "Line10",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7010",
+      "NameCcm": "Line 11",
+      "NameWcm": "Line11",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7011",
+      "NameCcm": "Line 12",
+      "NameWcm": "Line12",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7012",
+      "NameCcm": "Line 13",
+      "NameWcm": "Line13",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7013",
+      "NameCcm": "Line 14",
+      "NameWcm": "Line14",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7014",
+      "NameCcm": "Line 15",
+      "NameWcm": "Line15",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7015",
+      "NameCcm": "Line 16",
+      "NameWcm": "Line16",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7016",
+      "NameCcm": "Line 17",
+      "NameWcm": "Line17",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7017",
+      "NameCcm": "Line 18",
+      "NameWcm": "Line18",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7018",
+      "NameCcm": "Line 19",
+      "NameWcm": "Line19",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7019",
+      "NameCcm": "Line 20",
+      "NameWcm": "Line20",
+      "ParentCcm": "390",
+      "ParentWcm": "UserDefinedWTOS"
+    },
+    {
+      "IdCcm": "7020",
+      "NameCcm": "No Global ini File",
+      "NameWcm": "NoGlobalIni",
+      "ParentCcm": "390",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "6801",
+      "NameCcm": "File Server/Path",
+      "NameWcm": "FileServer",
+      "ParentCcm": "350",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "32114",
+      "NameCcm": "File Server Root Path",
+      "NameWcm": "FileServerRoot",
+      "ParentCcm": "350",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "6803",
+      "NameCcm": "User",
+      "NameWcm": "FileServerUser",
+      "ParentCcm": "350",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "6804",
+      "NameCcm": "Password",
+      "NameWcm": "FileServerPassword",
+      "ParentCcm": "350",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "6806",
+      "NameCcm": "Firmware Update Logic",
+      "NameWcm": "FirmwareUpdateLogic",
+      "ParentCcm": "412",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "6807",
+      "NameCcm": "Local Prompt",
+      "NameWcm": "LocalPrompt",
+      "ParentCcm": "412",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "12119",
+      "NameCcm": "Skip local firmware check",
+      "NameWcm": "SkipLocalFirmwareCheck",
+      "ParentCcm": "412",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "12120",
+      "NameCcm": "Disable Live Upgrade",
+      "NameWcm": "DisableLiveUpgrade",
+      "ParentCcm": "412",
+      "ParentWcm": "FirmwareWTOS"
+    },
+    {
+      "IdCcm": "6836",
+      "NameCcm": "Remember previous username",
+      "NameWcm": "RememberPreviousUsername",
+      "ParentCcm": "360",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6855",
+      "NameCcm": "Show name of last user on login screen",
+      "NameWcm": "ShowNameOfLastUser",
+      "ParentCcm": "360",
+      "ParentWcm": "SecurityWTOS"
+    },    
+    {
+      "IdCcm": "6845",
+      "NameCcm": "Default Sign-on Username",
+      "NameWcm": "DefaultSignOnUserName",
+      "ParentCcm": "360",
+      "ParentWcm": "SecurityWTOS"
+    },    
+    {
+      "IdCcm": "6846",
+      "NameCcm": "Default Sign-on password",
+      "NameWcm": "DefaultSignOnPassword",
+      "ParentCcm": "360",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6847",
+      "NameCcm": "Default Sign-on doamin",
+      "NameWcm": "DefaultSignOnDomain",
+      "ParentCcm": "360",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6841",
+      "NameCcm": "Privilege level",
+      "NameWcm": "PrivilegeLevel",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6919",
+      "NameCcm": "Allow lockdown of device",
+      "NameWcm": "AllowLockdown",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },    
+    {
+      "IdCcm": "6920",
+      "NameCcm": "Require domain login to use device",
+      "NameWcm": "RequireDomainLogin",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },    
+    {
+      "IdCcm": "6921",
+      "NameCcm": "Disable guest users",
+      "NameWcm": "DisableGuestUsers",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6922",
+      "NameCcm": "Require reentering password after Sign-on",
+      "NameWcm": "RequireReenteringPassword",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "90101",
+      "NameCcm": "Expiration time in minutes (1 - 480)",
+      "NameWcm": "ExpirationTime",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6924",
+      "NameCcm": "Require smartcard for login",
+      "NameWcm": "RequireSmartcardForLogin",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6925",
+      "NameCcm": "Behavior after smartcard is removed",
+      "NameWcm": "BehaviorAfterSmartcardIsRemoved",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6908",
+      "NameCcm": "Enable Gkey reset",
+      "NameWcm": "EnableGkeyReset",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6909",
+      "NameCcm": "Enable Trace",
+      "NameWcm": "EnableTrace",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6942",
+      "NameCcm": "Auto-install Certificates",
+      "NameWcm": "AutoInstallCertificates",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "90002",
+      "NameCcm": "Certificates",
+      "NameWcm": "Certificates",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6926",
+      "NameCcm": "Encrypt local flash",
+      "NameWcm": "EncryptLocalFlash",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6930",
+      "NameCcm": "Fast Disconnect Key",
+      "NameWcm": "FastDisconnectKey",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6928",
+      "NameCcm": "Disable ThinPrint Services",
+      "NameWcm": "DisableThinPrintServices",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6927",
+      "NameCcm": "Disable WDM Service",
+      "NameWcm": "DisableWDMService",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6910",
+      "NameCcm": "Enable VNC",
+      "NameWcm": "EnableVNC",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6911",
+      "NameCcm": "VNCPassword",
+      "NameWcm": "VNCPassword",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6912",
+      "NameCcm": "Prompt user on start",
+      "NameWcm": "PromptUserOnStart",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6913",
+      "NameCcm": "Counter for Accept/Reject (in seconds)",
+      "NameWcm": "CounterForAccept",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6914",
+      "NameCcm": "Prompt user on end",
+      "NameWcm": "PromptUserOnEnd",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6915",
+      "NameCcm": "View only",
+      "NameWcm": "ViewOnly",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+    {
+      "IdCcm": "6916",
+      "NameCcm": "Force 8bit",
+      "NameWcm": "Force8Bit",
+      "ParentCcm": "365",
+      "ParentWcm": "SecurityWTOS"
+    },
+
+    {
+      "IdCcm": "6929",
+      "NameCcm": "DisableVNCShadowing",
+      "NameWcm": "DisableVNCShadowing",
+      "ParentCcm": "380",
+      "ParentWcm": "SecurityWTOS"
+    },
+
+    {
+      "IdCcm": "6800",
+      "NameCcm": "Select Broker",
+      "NameWcm": "BrokerType",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "6805",
+      "NameCcm": "Broker Server",
+      "NameWcm": "BrokerServer",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "11009",
+      "NameCcm": "Citrix StoreFront",
+      "NameWcm": "CitrixStoreFront",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "11004",
+      "NameCcm": "Display on desktop",
+      "NameWcm": "DisplayOnDesktop",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9000",
+      "NameCcm": "Automatically connect to sessions",
+      "NameWcm": "AutomaticallyConnectToSessions",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9002",
+      "NameCcm": "Use recommended settings for sessions",
+      "NameWcm": "UseRecommendedSessionsSettings",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9003",
+      "NameCcm": "Manually define direct RDP connections",
+      "NameWcm": "ManuallyDefineRDP",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9004",
+      "NameCcm": "Configure TS Gateway",
+      "NameWcm": "ConfigureTSGateway",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9005",
+      "NameCcm": "Security mode",
+      "NameWcm": "SecurityMode",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9006",
+      "NameCcm": "Protocol",
+      "NameWcm": "Protocol",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "6891",
+      "NameCcm": "Connection Name",
+      "NameWcm": "ConnectionName",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "6892",
+      "NameCcm": "Host Name or IP Address",
+      "NameWcm": "HostNameOrIP",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "6893",
+      "NameCcm": "Auto Start",
+      "NameWcm": "AutoStart",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "6894",
+      "NameCcm": "Reconnect After Disconnect",
+      "NameWcm": "ReconnectAfterDisconnect",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "6895",
+      "NameCcm": "User Name",
+      "NameWcm": "UserNameCnx",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "6896",
+      "NameCcm": "Password",
+      "NameWcm": "PassworcCnx",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "6897",
+      "NameCcm": "Domain Name",
+      "NameWcm": "DomainNameCnx",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "6898",
+      "NameCcm": "Color depth",
+      "NameWcm": "ColorDepthCnx",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "6899",
+      "NameCcm": "Session Window Behavior",
+      "NameWcm": "SessionWindowBehaviorCnx",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "6890",
+      "NameCcm": "Audio Playback",
+      "NameWcm": "AudioPlayback",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9020",
+      "NameCcm": "Host Address",
+      "NameWcm": "HostAddressTsGateWay",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9021",
+      "NameCcm": "Username",
+      "NameWcm": "UsernameTsGateWay",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9022",
+      "NameCcm": "Password",
+      "NameWcm": "PasswordTsGateWay",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9023",
+      "NameCcm": "Domain",
+      "NameWcm": "DomainTsGateWay",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9024",
+      "NameCcm": "Auto-Detect Network",
+      "NameWcm": "AutoDetectTsGateWay",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "6889",
+      "NameCcm": "Default color depth for connections",
+      "NameWcm": "DefaultColorDepthForConnection",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9030",
+      "NameCcm": "Session Window Behavior",
+      "NameWcm": "SessionWindowBehaviorEx",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9039",
+      "NameCcm": "Font Smoothing",
+      "NameWcm": "FontSmoothing",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "9049",
+      "NameCcm": "Advanced RDP protocol features",
+      "NameWcm": "AdvancedRdpProtocol",
+      "ParentCcm": "330",
+      "ParentWcm": "NA"
+    },
+    {
+      "IdCcm": "11001",
+      "NameCcm": "USB Redirection Technology",
+      "NameWcm": "USBRedirectionTechnology",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "11007",
+      "NameCcm": "Audio quality",
+      "NameWcm": "AudioQuality",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "11008",
+      "NameCcm": "Map USB disks to",
+      "NameWcm": "MapUsbDisks",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "9031",
+      "NameCcm": "Enable Seamless Mode",
+      "NameWcm": "EnableSeamlessMode",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "9032",
+      "NameCcm": "Hide taskbar in Seamless Mode",
+      "NameWcm": "HideTaskbarInSeamlessMode",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "6829",
+      "NameCcm": "Enable NLA",
+      "NameWcm": "EnableNla",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "6830",
+      "NameCcm": "Enable Recording",
+      "NameWcm": "EnableRecording",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "6831",
+      "NameCcm": "Force Span",
+      "NameWcm": "ForceSpan",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "6832",
+      "NameCcm": "Enable Desktop Wallpaper",
+      "NameWcm": "EnableDesktopWallpaper",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "6833",
+      "NameCcm": "Enable Window Dragging",
+      "NameWcm": "EnableWindowDragging",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "6834",
+      "NameCcm": "Enable Animation",
+      "NameWcm": "EnableAnimation",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "6835",
+      "NameCcm": "Enable Theme",
+      "NameWcm": "EnableTheme",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9041",
+      "NameCcm": "RemoteFX graphic channel",
+      "NameWcm": "RemoteFXGraphicChannel",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9042",
+      "NameCcm": "Video Optimized VOR",
+      "NameWcm": "VideoOptimizedVOR",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9043",
+      "NameCcm": "Bitmap Codec RemoteFX",
+      "NameWcm": "BitmapCodecRemoveFX",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9044",
+      "NameCcm": "UDP Traffic Channel",
+      "NameWcm": "UDPTrafficChannel",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9033",
+      "NameCcm": "Multimedia Redirection",
+      "NameWcm": "MultimediaRedirection",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9045",
+      "NameCcm": "Multi-Monitor",
+      "NameWcm": "MultiMonitor",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9038",
+      "NameCcm": "Enable TSMM",
+      "NameWcm": "EnableTSMM",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9050",
+      "NameCcm": "Printers",
+      "NameWcm": "AutoConnectLocalPrinters",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9051",
+      "NameCcm": "Serials",
+      "NameWcm": "AutoConnectLocalSerials",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9052",
+      "NameCcm": "SmartCards",
+      "NameWcm": "AutoConnectLocalSmartCards",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9053",
+      "NameCcm": "Sound",
+      "NameWcm": "AutoConnectLocalSound",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9054",
+      "NameCcm": "Enable USB storage disks",
+      "NameWcm": "EnableUSBStorageDisks",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9055",
+      "NameCcm": "Enable USB Redirection",
+      "NameWcm": "EnableUSBRedirection",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9056",
+      "NameCcm": "Exclude disk devices",
+      "NameWcm": "ExcludeDiskDevices",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9057",
+      "NameCcm": "Exclude audio devices",
+      "NameWcm": "ExcludeAudioDevices",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9058",
+      "NameCcm": "Exclude printer devices",
+      "NameWcm": "ExcludePrinterDevices",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9059",
+      "NameCcm": "Exclude video devices",
+      "NameWcm": "ExcludeVideoDevices",
+      "ParentCcm": "330",
+      "ParentWcm": "BrokerWTOS"
+    },
+    {
+      "IdCcm": "9060",
+      "NameCcm": "Mouse queue timer",
+      "NameWcm": "MouseQueueTimer",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9079",
+      "NameCcm": "Maximum Bitmap Cache",
+      "NameWcm": "MaximumBitmapCache",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPGlobalSettings"
+    },
+    {
+      "IdCcm": "9080",
+      "NameCcm": "4 pixel Aligned Session Width",
+      "NameWcm": "FourPixelAlignedSessionWidth",
+      "ParentCcm": "330",
+      "ParentWcm": "RDPConnectionWTOS"
+    },
+    {
+      "IdCcm": "9070",
+      "NameCcm": "Automatically reconnect sessions at logon?",
+      "NameWcm": "AutoReconnectAtLogon",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "9071",
+      "NameCcm": "Automatically reconnect from button menu?",
+      "NameWcm": "AutoReconnectFromButton",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAConnectionWTOS"
+    },
+    {
+      "IdCcm": "9072",
+      "NameCcm": "Account Self-service server",
+      "NameWcm": "AccountSelfServiceServer",
+      "ParentCcm": "330",
+      "ParentWcm": "NA"
+    },
+    {
+      "IdCcm": "9073",
+      "NameCcm": "Access Gateway authentication method",
+      "NameWcm": "AccessGatewayAuthMethod",
+      "ParentCcm": "330",
+      "ParentWcm": "NA"
+    },
+    {
+      "IdCcm": "9074",
+      "NameCcm": "Use HTTP for browsing",
+      "NameWcm": "UseHttpForBrowsing",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "9075",
+      "NameCcm": "Alternate address via firewall",
+      "NameWcm": "AlternateAddressFirewall",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    },
+    {
+      "IdCcm": "9076",
+      "NameCcm": "System Menu",
+      "NameWcm": "SystemMenu",
+      "ParentCcm": "330",
+      "ParentWcm": "NA"
+    },
+    {
+      "IdCcm": "9077",
+      "NameCcm": "Disable Reset VM",
+      "NameWcm": "DisableResetVm",
+      "ParentCcm": "330",
+      "ParentWcm": "NA"
+    },
+    {
+      "IdCcm": "9078",
+      "NameCcm": "Show 32-bit icons for the first set of connections",
+      "NameWcm": "Show32BitIcon",
+      "ParentCcm": "330",
+      "ParentWcm": "NA"
+    },
+    {
+      "IdCcm": "11002",
+      "NameCcm": "sessionreliability",
+      "NameWcm": "SessionReliability",
+      "ParentCcm": "330",
+      "ParentWcm": "ICAGlobalSettings"
+    }
+  ]
+}
